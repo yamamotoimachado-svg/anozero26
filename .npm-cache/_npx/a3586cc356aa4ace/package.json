@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "sanity": "^5.14.1"
+  },
+  "_npx": {
+    "packages": [
+      "sanity@latest"
+    ]
+  }
+}

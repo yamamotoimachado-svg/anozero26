@@ -1,0 +1,68 @@
+
+.charsWrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -2%;
+}
+
+.char {
+    position: absolute;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/*.char:nth-child(1){*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*}*/
+
+/*.char:nth-child(2){*/
+/*    top: calc( var(--remainder) * 1);*/
+/*    left: calc( var(--remainder) * 1);*/
+/*}*/
+
+/*.char:nth-child(3){*/
+/*    top: calc( var(--remainder) * 2);*/
+/*    left: calc( var(--remainder) * 2);*/
+/*}*/
+
+/*.char:nth-child(4){*/
+/*    top: calc( var(--remainder) * 3);*/
+/*    left: calc( var(--remainder) * 3);*/
+/*}*/
+
+/*.char:nth-child(5){*/
+/*    top: calc( var(--remainder) * 4);*/
+/*    left: calc( var(--remainder) * 4);*/
+/*}*/
+
+/*.char:nth-child(6){*/
+/*    top: calc( var(--remainder) * 5);*/
+/*    left: calc( var(--remainder) * 5);*/
+/*}*/
+
+/*.char:nth-child(7){*/
+/*    top: calc( var(--remainder) * 6);*/
+/*    left: calc( var(--remainder) * 6);*/
+/*}*/
+
+/*.char:nth-child(8){*/
+/*    top: calc( var(--remainder) * 7);*/
+/*    left: calc( var(--remainder) * 7);*/
+/*}*/
+
+/*.char:nth-child(9){*/
+/*    top: calc( var(--remainder) * 8);*/
+/*    left: calc( var(--remainder) * 8);*/
+/*}*/
+
+/*.char:nth-child(10){*/
+/*    top: calc( var(--remainder) * 9);*/
+/*    left: calc( var(--remainder) * 9);*/
+/*}*/
+
+/*.char:nth-child(11){*/
+/*    top: calc( var(--remainder) * 10);*/
+/*    left: calc( var(--remainder) * 10);*/
+/*}*/

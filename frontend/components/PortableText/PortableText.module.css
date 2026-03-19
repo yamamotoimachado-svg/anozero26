@@ -1,0 +1,3 @@
+.portableText p:empty{
+    @apply pb-4;
+}

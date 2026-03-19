@@ -1,0 +1,111 @@
+{
+  "pageLayout": {
+    "pageTitle": "Anozero 24'"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "ENGLISH"
+  },
+  "header": {
+    "menu": "Menu",
+    "close": "Fechar"
+  },
+  "footer": {
+    "info": "Anozero’26\nBienal Coimbra\n",
+    "moreinfo": "Horário de funcionamento: Quarta a domingo, 11:00 às 19:00",
+    "freedomGhost": "Dar, Segurar e Receber\n",
+    "dates": "11 ABR–5 JUL 2024\n",
+    "contacts": "+351 910 787 255\ninfo@anozero-bienalcoimbra.pt",
+    "emailInputPlaceholder": "Inserir email",
+    "nameInputPlaceholder": "Inserir nome",
+    "emailSubscriptionTerms": "Ao subscrever às nossas newsletters, irá receber comunicação sobre a programação e eventos da Bienal de Coimbra.\nApós completar o registo nesta página, deverá confirmar a sua subscrição no email que receber.",
+    "subscriptionInfo": "Li e concordo com a Política de Privacidade",
+    "privacyPolicy": "Política de Privacidade",
+    "accessibility": "Acessibilidade",
+    "subscribe": "Subscrever",
+    "subscribeNewsletter": "Subscrever Newsletter",
+    "copyright": "Copyright e Créditos"
+  },
+  "links": {
+    "header": {
+      "freedomGhost": "Dar, Segurar e Receber\n",
+      "agenda": "Agenda",
+      "artists&spaces": "Artistas + Espaços",
+      "visit": "Visitar",
+      "about": "Sobre o Anozero",
+      "subscribeNewsletter": "Subscrever Newsletter",
+      "mediaKit": "Media Kit",
+      "contacts": "Contactos",
+      "endorsements": "Apoios e Parceiros"
+    },
+    "footer": {
+      "news": "Notícias",
+      "mediaKit": "Media Kit",
+      "about": "Sobre o Anozero"
+    }
+  },
+  "fantasmaDaLiberdade": {
+    "title": "O Fantasma da Liberdade",
+    "sections": {
+      "intro": "Apresentação",
+      "team": "Equipa Curatorial",
+      "educationProposal": "Proposta Educativa",
+      "convergentProgram": "Programa Convergente",
+      "architectureProgram": "Programa Arquitetura",
+      "datasheet": "Ficha Técnica",
+      "endorsements": "Apoios e Parceiros",
+      "acknowledgments": "Agradecimentos"
+    },
+    "team": {
+      "curation": "Curadoria",
+      "curatorialCouncil": "Conselho Curatorial",
+      "curatorialAssistance": "Assistência de Curadoria"
+    }
+  },
+  "venue": {
+    "artists": "Artistas neste espaço",
+    "events": "Eventos neste espaço",
+    "link": "Saber mais +"
+  },
+  "homeScreen": {
+    "shortText": "O Fantasma da Liberdade é um título que interpela o momento presente, além de citar o conhecido filme de Luis Buñuel, realizado em 1974. Referimo-nos muitas vezes ao «fantasma da liberdade» para falar do inalcançável…",
+    "venues": "Espaços",
+    "events": "Próximos Eventos",
+    "readMore": "Ler texto curatorial +",
+    "title": "O Fantasma da Liberdade",
+    "agenda": "Ver agenda completa +",
+    "guide": "Download Guia",
+    "about": "Sobre o Anozero",
+    "newsletter": "Subscrever Newsletter",
+    "mediaKit": "Media Kit"
+  },
+  "common": {
+    "knowMore": "Saber mais +",
+    "artists": "Artistas",
+    "events": "Eventos"
+  },
+  "events": {
+    "agenda": "Em Agenda",
+    "pastEvents": "Eventos Passados",
+    "nextEvents": "Próximos Eventos",
+    "all": "Todos os eventos",
+    "bienal": "Programa da bienal",
+    "convergent": "Programa convergente",
+    "arquitecture": "Programa arquitetura",
+    "guide": "Download Guide"
+  },
+  "eventDetails": {
+    "artistsList": "Participantes",
+    "relatedEvents": "Eventos Relacionados",
+    "relatedArtists": "Artistas Relacionados"
+  },
+  "venueDetails": {
+    "artists": "Artistas",
+    "events": "Eventos"
+  },
+  "about": {
+    "title": "Sobre o Anozero",
+    "organizers": "Organizadores",
+    "edition": "Edições Anteriores",
+    "visit": "Visitar website"
+  }
+}

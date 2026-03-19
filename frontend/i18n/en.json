@@ -1,0 +1,112 @@
+{
+  "pageLayout": {
+    "pageTitle": "Anozero 24'"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "PORTUGUÊS"
+  },
+  "header": {
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "footer": {
+    "contacts": "+351 910 787 255\ninfo@anozero-bienalcoimbra.pt",
+    "emailInputPlaceholder": "Insert your email",
+    "nameInputPlaceholder": "Insert your name",
+    "emailSubscriptionTerms": "By subscribing to our newsletters, you will receive communication about the Bienal de Coimbra programming and events. After completing registration on this page, you must confirm your subscription in the email you receive.",
+    "subscribe": "Subscribe",
+    "subscribeNewsletter": "Subscribe Newsletter",
+    "privacyPolicy": "Privacy Policy",
+    "accessibility": "Accessibility",
+    "subscriptionInfo": "I have read and agree to the Privacy Policy",
+    "closeSubscription": "Close",
+    "copyright": "Copyright e Créditos",
+    "info": "Anozero’24\nBienal Coimbra\n",
+    "moreinfo": "Working hours: Wednesday to Sunday, 11:00 to 19:00",
+    "freedomGhost": "The Phantom of Liberty\n",
+    "dates": "6 ABR–30 JUN 2024\n"
+  },
+  "links": {
+    "header": {
+      "freedomGhost": "TO HOLD, TO GIVE AND TO RECEIVE\n",
+      "agenda": "Agenda",
+      "artists&spaces": "Artists + Spaces",
+      "visit": "Visit",
+      "about": "About AnoZero",
+      "subscribeNewsletter": "Subscribe Newsletter",
+      "mediaKit": "Media Kit",
+      "contacts": "Contacts",
+      "endorsements": "Endorsements & Partners"
+    },
+    "footer": {
+      "news": "News",
+      "mediaKit": "Media Kit",
+      "about": "About AnoZero"
+    }
+  },
+  "fantasmaDaLiberdade": {
+    "title": "The Phantom of Liberty",
+    "sections": {
+      "intro": "Introduction",
+      "team": "Curatorial Team",
+      "educationProposal": "Education Proposal",
+      "convergentProgram": "Convergent Program",
+      "architectureProgram": "Architecture Program",
+      "datasheet": "Technical Sheet",
+      "endorsements": "Endorsements & Partners",
+      "acknowledgments": "Acknowledgments"
+    },
+    "team": {
+      "curation": "Curation",
+      "curatorialCouncil": "Curatorial Council",
+      "curatorialAssistance": "Curation Assistance"
+    }
+  },
+  "venue": {
+    "artists": "Artists in this space",
+    "events": "Events in this space",
+    "link": "Know more +"
+  },
+  "homeScreen": {
+    "shortText": "The Phantom of Liberty is a title that challenges the present moment, in addition to citing the well-known film by Luis Buñuel, made in 1974. We often refer to the “phantom of liberty” to talk about the unattainable…",
+    "events": "Next Events",
+    "venues": "Spaces",
+    "readMore": "Read curatorial text +",
+    "title": "The Phantom of Liberty",
+    "agenda": "See Complete Agenda +",
+    "guide": "Download Guide",
+    "about": "About AnoZero",
+    "newsletter": "Subscribe Newsletter",
+    "mediaKit": "Media Kit"
+  },
+  "common": {
+    "knowMore": "Know more +",
+    "artists": "Artists",
+    "events": "Events"
+  },
+  "events": {
+    "agenda": "Agenda",
+    "pastEvents": "Past Events",
+    "nextEvents": "Next Events",
+    "all": "All Events",
+    "bienal": "Bienal Events",
+    "convergent": "Convergent Events",
+    "arquitecture": "Arquitecture Events",
+    "guide": "Download Guide"
+  },
+  "eventDetails": {
+    "artistsList": "Participants",
+    "relatedEvents": "Related Events",
+    "relatedArtists": "Related Artists"
+  },
+  "venueDetails": {
+    "artists": "Artists",
+    "events": "Events"
+  },
+  "about": {
+    "title": "About AnoZero",
+    "organizers": "Organizers",
+    "edition": "previous editions",
+    "visit": "visit website"
+  }
+}

@@ -1,0 +1,12 @@
+.clampMultiLine {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .clampMultiLine {
+        -webkit-line-clamp: 2;
+    }
+}

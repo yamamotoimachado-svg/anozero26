@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Benedict Burnitt",
+    "role": "Construction Foreman",
+    "img": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt."
+  },
+  {
+    "id": 2,
+    "name": "Maybelle Vaneschi",
+    "role": "Estimator",
+    "img": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris."
+  },
+  {
+    "id": 3,
+    "name": "Eleonore Prandin",
+    "role": "Construction Expeditor",
+    "img": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "description": "Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst."
+  },
+  {
+    "id": 4,
+    "name": "Tanney McCambridge",
+    "role": "Subcontractor",
+    "img": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+  },
+  {
+    "id": 5,
+    "name": "Sheffie Polk",
+    "role": "Construction Expeditor",
+    "img": "http://dummyimage.com/300x300.png/ff4444/ffffff",
+    "description": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum."
+  },
+  {
+    "id": 6,
+    "name": "Madeline McNea",
+    "role": "Electrician",
+    "img": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "description": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus."
+  },
+  {
+    "id": 7,
+    "name": "Clea Lewsley",
+    "role": "Estimator",
+    "img": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "description": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+  },
+  {
+    "id": 8,
+    "name": "Hailee Trewhella",
+    "role": "Construction Worker",
+    "img": "http://dummyimage.com/300x300.png/cc0000/ffffff",
+    "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+  },
+  {
+    "id": 9,
+    "name": "Harald De Paoli",
+    "role": "Construction Foreman",
+    "img": "http://dummyimage.com/300x300.png/dddddd/000000",
+    "description": "Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl."
+  },
+  {
+    "id": 10,
+    "name": "Alli Danett",
+    "role": "Architect",
+    "img": "http://dummyimage.com/300x300.png/5fa2dd/ffffff",
+    "description": "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+  }
+]
