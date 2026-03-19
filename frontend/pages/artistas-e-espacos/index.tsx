@@ -1,3 +1,6 @@
+// Removed for site simplification
+// This file is no longer needed as part of the site structure.
+// Please refer to index.tsx for the home page.
 import { GetStaticPropsContext } from "next";
 import VenueSummary from "@/components/VenueSummary/VenueSummary";
 import PageLayout from "@/components/PageLayout";

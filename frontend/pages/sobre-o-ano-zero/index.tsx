@@ -1,3 +1,6 @@
+// Removed for site simplification
+// This file is no longer needed as part of the site structure.
+// Please refer to index.tsx for the home page.
 // @ts-nocheck
 import React, { useRef } from "react";
 import { GetStaticPropsContext } from "next";
