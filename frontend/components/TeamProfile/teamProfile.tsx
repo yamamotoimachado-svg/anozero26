@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import CustomPortableText from "@/components/PortableText/PortableText";
+import Image from "next/image";
 
 type TeamProfileProps = {
   img: string;
@@ -19,10 +20,13 @@ const TeamProfile = (props: TeamProfileProps) => {
       )}
     >
       <div className="imageContainer">
-        <img
+        <Image
           src={props.img}
           className=" w-full max-w-[250px] md:max-w-[300px] imageFilter"
-        ></img>
+          alt={props.name}
+          width={300} // Adjust width as needed
+          height={300} // Adjust height as needed
+        />
       </div>
       <div className="my-4 px-2 py-2 text-center">
         <p className="az-text-18 md:az-text-20 font-bold uppercase">

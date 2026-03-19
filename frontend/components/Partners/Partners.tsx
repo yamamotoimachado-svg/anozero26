@@ -5,6 +5,7 @@ import { PartnerType } from "@/utils/sanity/types/common";
 import Link from "next/link";
 import classNames from "classnames";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Partners(props: { partners: Array<PartnerType>| undefined, isSingleColumn?: boolean }) {
   const { locale } = useRouter();
@@ -32,10 +33,12 @@ export default function Partners(props: { partners: Array<PartnerType>| undefine
             )}>
               {p.logos.map((logo, index) => (
                 <Link href={logo.link || ""} key={index}>
-                  <img
+                  <Image
                     src={logo.logo}
                     alt={logo.entidade}
                     className="h-16 md:h-16"
+                    width={64} // Adjust width as needed
+                    height={64} // Adjust height as needed
                   />
                 </Link>
               ))}

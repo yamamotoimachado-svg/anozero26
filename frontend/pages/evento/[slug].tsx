@@ -18,6 +18,7 @@ import {
   getLinkNewsletter,
 } from "@/utils/sanity/queries/miscQueries";
 import CustomPortableText from "@/components/PortableText/PortableText";
+import Image from "next/image";
 
 const Event = (props: {
   event: EventType;
@@ -40,10 +41,13 @@ const Event = (props: {
     >
       <div className=" relative flex items-center justify-center overflow-hidden">
         <div className="imageContainer mb-4 w-full">
-          <img
+          <Image
             src={event?.imagemDestaque?.asset.url}
             className="imageFilter h-full w-full object-cover md:h-[288px]"
-          ></img>
+            alt={locale === "pt" ? event?.titulo_pt : event?.titulo_en || "Event image"}
+            width={1920} // Adjust width as needed
+            height={1080} // Adjust height as needed
+          />
         </div>
         <div className="absolute top-3 gap-1 flex md:block flex-col">
           <div className="flex flex-wrap gap-1 md:gap-4 justify-center mx-4 flex-col md:flex-row">

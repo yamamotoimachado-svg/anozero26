@@ -16,6 +16,7 @@ import CustomPortableText from "@/components/PortableText/PortableText";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useDraggable } from "react-use-draggable-scroll";
+import Image from "next/image";
 
 const Visitar = (props: { data: any, partners:Array<PartnerType>, newsletter : string }) => {
   const { locale } = useRouter();
@@ -40,18 +41,18 @@ const Visitar = (props: { data: any, partners:Array<PartnerType>, newsletter : s
       <div className="uppercase text-nightGreen flex justify-center text-[1.25rem] leading-[1.5rem]"><Link
         href={props.data.url}> {t("visit")} <span className="text-[1.5rem] relative -top-[0.2rem] ml-[0.5rem]">↗</span>
       </Link></div>
-      <div className="mt-4 text-nightGreen mt-[10rem] ">
+      <div className="text-nightGreen mt-[10rem] ">
         <h2
           className="text-[2.313rem] leading-[2.313rem] text-center italic uppercase md:text-center">{t("organizers")}</h2>
       </div>
-      <div className="flex flex-col md:flex-row md:max-w-[50%] md:max-w-[770px] justify-center items-center m-auto">
+      <div className="flex flex-col md:flex-row md:max-w-[770px] justify-center items-center m-auto">
         {props.data.organizadores.map((organizador: any, index: number) => (
           <Link href={organizador.link} key={index} className="flex-grow min-w-[200px]">
-            <img alt={organizador.entidade} src={organizador.logo} />
+            <Image alt={organizador.entidade} src={organizador.logo} width={200} height={200} />
           </Link>
         ))}
       </div>
-      <div className="mt-4 text-nightGreen mt-[10rem] ">
+      <div className="text-nightGreen mt-[10rem] ">
         <h2
           className="text-[2.313rem] leading-[2.313rem] mb-[2.5rem] text-center italic uppercase md:text-center">{t("edition")}</h2>
       </div>

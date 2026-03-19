@@ -18,6 +18,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import classNames from "classnames";
+import Image from "next/image";
 
 type HomePageCarouselProps = {
   desktopImages: string[];
@@ -49,13 +50,16 @@ export default function HomePageCarousel(props: HomePageCarouselProps) {
       >
         {props.desktopImages.map((image, index) => (
           <SwiperSlide key={index} className="relative">
-            <h2 className="width-full z-2 absolute top-[16px] left-1/2 -translate-x-2/4 text-nowrap text-center uppercase text-black md:bottom-[108px] md:top-auto text-[1.25rem] leading-[1.35rem] md:text-[2.313rem] md:leading-[2.313rem] text-nightGreen">
+            <h2 className="width-full z-2 absolute top-[16px] left-1/2 -translate-x-2/4 text-nowrap text-center uppercase md:bottom-[108px] md:top-auto text-[1.25rem] leading-[1.35rem] md:text-[2.313rem] md:leading-[2.313rem] text-nightGreen">
               {props.names[index]}
             </h2>
-            <img src={image} className="hidden h-full w-full md:block object-cover" />
-            <img
+            <Image src={image} className="hidden h-full w-full md:block object-cover" alt={`Desktop image ${index}`} width={1920} height={1080} />
+            <Image
               src={props.mobileImages[index]}
               className="h-full w-full md:hidden object-cover"
+              alt={`Mobile image ${index}`}
+              width={1080}
+              height={1920}
             />
           </SwiperSlide>
         ))}

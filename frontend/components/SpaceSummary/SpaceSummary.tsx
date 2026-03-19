@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 type ArtistInfo = {
   img: string;
@@ -34,7 +35,12 @@ const SpaceSummary = (props: SpaceSummaryProps) => {
       <div>
         {props.artists.map((artist, index) => (
           <div key={index} className="m-10">
-            <img src={artist.img} alt={`${artist.artistName} image`}></img>
+            <Image
+              src={artist.img}
+              alt={`${artist.artistName} image`}
+              width={200} // Adjust width as needed
+              height={200} // Adjust height as needed
+            />
             <p className="leading-7 [&:not(:first-child)]:mt-6">
               {artist.artistName}
             </p>

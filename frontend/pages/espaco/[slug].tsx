@@ -18,6 +18,7 @@ import {
   getLinkNewsletter,
 } from "@/utils/sanity/queries/miscQueries";
 import CustomPortableText from "@/components/PortableText/PortableText";
+import Image from "next/image";
 
 const Venue = (props: {
   data: VenueType;
@@ -63,7 +64,7 @@ const Venue = (props: {
           </p>
         </div>
       </div>
-      <div className="mx-4 mb-6 mb-[80px] mt-4 text-wrap text-[1.25rem] leading-[1.5rem] text-nightGreen md:mx-auto md:w-8/12 xl:w-6/12">
+      <div className="mx-4 mb-[80px] mt-4 text-wrap text-[1.25rem] leading-[1.5rem] text-nightGreen md:mx-auto md:w-8/12 xl:w-6/12">
         <CustomPortableText
           value={
             locale && locale === "pt" ? venue?.sinopse_pt : venue?.sinopse_en
@@ -80,10 +81,12 @@ const Venue = (props: {
                   key={index}
                   className="relative mr-6 inline-block h-[180px] w-[270px] md:h-[40vw] md:w-[70vw]"
                 >
-                  <img
+                  <Image
                     className="h-[180px] w-[270px] object-cover object-center md:h-[40vw] md:w-[70vw]"
                     src={image.asset.url}
                     alt={`${venue.nome} gallery image`}
+                    width={270} // Adjust width as needed
+                    height={180} // Adjust height as needed
                   />
                   <p className="ml-[0.938rem] mt-[0.3rem] text-[1.125rem] leading-[1.35rem] text-nightGreen">
                     {locale && locale === "pt"
@@ -111,10 +114,12 @@ const Venue = (props: {
                   className="imageContainer relative inline-block h-[200px] w-[170px] md:h-[300px] md:w-[256px]"
                 >
                   {artist.foto && (
-                    <img
+                    <Image
                       className="imageFilter h-[200px] w-[170px] object-cover md:h-[300px] md:w-[256px]"
                       src={artist.foto.asset.url}
                       alt={`${artist.primeiroNome} ${artist.ultimoNome} foto`}
+                      width={170} // Adjust width as needed
+                      height={200} // Adjust height as needed
                     />
                   )}
                   <div className="absolute left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2 text-wrap text-center text-[1.125rem] uppercase leading-[1.35rem] text-nightGreen">

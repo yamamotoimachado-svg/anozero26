@@ -20,6 +20,7 @@ import {
 } from "@/utils/sanity/queries/miscQueries";
 import { PartnerType } from "@/utils/sanity/types/common";
 import CustomPortableText from "@/components/PortableText/PortableText";
+import Image from "next/image";
 
 const extractYoutubeVideoId = (url) => {
   let videoId = null;
@@ -88,15 +89,18 @@ const Artista = (props: {
       <div className="">
         <div className="imageContainerGreen flex overflow-hidden">
           {new Array(3).fill("").map((_, index) => (
-            <img
+            <Image
               key={index}
               src={artist?.foto?.asset?.url}
               className="imageFilter w-1/3 object-contain"
-            ></img>
+              alt={`Artist photo ${index}`}
+              width={300} // Adjust width as needed
+              height={300} // Adjust height as needed
+            />
           ))}
         </div>
         <p className="mb-4 mt-8 block text-center text-base font-medium uppercase italic leading-none text-nightBlue md:mx-auto md:w-1/2">
-          {artist?.[`nacionalidade_${locale}`]}, {artist?.dataNascimento}{" "}
+          {artist?.[`nacionalidade_${locale}`]}, {artist?.dataNascimento} {" "}
           {artist?.dataMorte && ` - ${artist?.dataMorte}`}
         </p>
         <div className="portable-text mx-4 mb-[80px] text-wrap text-[1.25rem] leading-[1.5rem] text-nightGreen md:mx-auto md:w-8/12 xl:w-6/12">
@@ -113,10 +117,12 @@ const Artista = (props: {
                     key={index}
                     className="relative mr-6 inline-block max-h-[280px] md:max-h-[640px] max-w-[270px] md:max-w-full align-top"
                   >
-                    <img
+                    <Image
                       className="h-[190px] object-contain object-center md:h-[600px] "
                       src={image.asset.url}
                       alt={`${artist.primeiroNome} gallery image`}
+                      width={270} // Adjust width as needed
+                      height={190} // Adjust height as needed
                     />
                     <p className="ml-[0.938rem] mt-[0.3rem] text-[1.125rem] leading-[1.35rem] text-nightGreen text-wrap">
                       {locale && locale === "pt"
@@ -136,9 +142,11 @@ const Artista = (props: {
             className="imageContainer relative mx-4 mb-6 md:mx-auto md:w-8/12 xl:w-6/12 [&:not(:first-child)]:basis-1/2"
           >
             <Link href={`/${locale}/espaco/${venue.slug.current}`}>
-              <img
+              <Image
                 src={venue.fotoPrincipalDesktop?.asset?.url}
-                className="imageFilter h-[200px] object-cover w-full md:h-[288px]"
+                alt={venue.nome}
+                width={800} // Adjust width as needed
+                height={600} // Adjust height as needed
               />
               <div
                 className="absolute left-2/4 top-2/4 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col items-center

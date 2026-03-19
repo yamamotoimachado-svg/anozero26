@@ -10,6 +10,7 @@ import { useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 import mapDesk from "@/public/images/mapDesk.png";
 import Link from "next/link";
+import Image from "next/image";
 
 type MapProps = {
   venues: VenueType[];
@@ -36,10 +37,10 @@ const Map = (props: MapProps) => {
         {/*</div>*/}
 
         <div className="hidden md:block">
-          <img src={"/images/mapDesktopTemp.svg"} />
+          <Image src={"/images/mapDesktopTemp.svg"} alt="Map for desktop" width={800} height={600} />
         </div>
         <div className="block md:hidden">
-          <img src={"/images/mapMobileTemp.svg"} />
+          <Image src={"/images/mapMobileTemp.svg"} alt="Map for mobile" width={400} height={300} />
         </div>
       </div>
       <div className="m-2 flex gap-2 overflow-x-scroll whitespace-nowrap text-white hideScrollBar">
