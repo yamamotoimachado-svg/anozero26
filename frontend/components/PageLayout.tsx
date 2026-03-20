@@ -59,8 +59,9 @@ export default function PageLayout({
           id="mobileHeaderLinks"
           className="fixed bottom-0 left-0 right-0 top-[100px] flex flex-col items-center justify-center bg-white text-black"
         >
-          <HeaderLinks twClass="flex flex-col items-center flex-1 justify-center uppercase" />
-        
+          <div className="max-width-1920 w-full">
+            <HeaderLinks twClass="flex flex-col items-center flex-1 justify-center uppercase" />
+          </div>
         </section>
       ) : (
         <>

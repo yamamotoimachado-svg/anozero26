@@ -28,59 +28,62 @@ export default function Index(props: {
 
   return (
     <PageLayout partners={props.partners} newsLetterLink={props.newsletter}>
-      {/* Hero */}
-      <div className="relative mx-4 w-auto aspect-[16/7] bg-white overflow-hidden md:mx-6">
-        <Image
-          src={heroCompleto}
-          alt="Anozero 26"
-          fill
-          className="object-cover"
-          priority
-        />
-      </div>
+      <div className="max-width-1920">
+        {/* Hero */}
+        <div className="relative w-auto aspect-[16/7] bg-white overflow-hidden" style={{ margin: '0 20px 0 20px' }}>
+          <Image
+            src={heroCompleto}
+            alt="Anozero 26"
+            fill
+            className="object-cover"
+            priority
+            style={{ display: 'block', margin: 0 }}
+          />
+        </div>
 
-      {/* Curatorial text section */}
-      <div className="pt-[119px] px-6 text-center">
-        <h2 className="text-black text-[1.75rem] md:text-[2.5rem] font-bold uppercase leading-tigh title">
-          {props.curTitle}
-        </h2>
-        {props.curTitleEn && (
-          <p className="text-black uppercase text-sm md:text-base mt-2 subtitle">
-            {props.curTitleEn}
+        {/* Curatorial text section */}
+        <div className="pt-[119px] px-6 text-center">
+          <h2 className="text-black text-[1.75rem] md:text-[2.5rem] font-bold uppercase leading-tigh title">
+            {props.curTitle}
+          </h2>
+          {props.curTitleEn && (
+            <p className="text-black uppercase text-sm md:text-base mt-2 subtitle">
+              {props.curTitleEn}
+            </p>
+          )}
+          <p className="mt-10 text-black max-w-[1000px] mx-auto text-center txtDestaque">
+            {props.phantomText}
           </p>
-        )}
-        <p className="mt-10 text-black max-w-[1000px] mx-auto text-center txtDestaque">
-          {props.phantomText}
-        </p>
-        <Link
-          href="/textoCuratorial"
-          className="mt-8 inline-block text-black uppercase underline underline-offset-4 transition-colors bebasReadMore"
-        >
-          {t("readMore")}
-        </Link>
-        <div className="mt-8 flex flex-wrap justify-center gap-4 mb-[119px]">
-          <HomeActionButton
-            href={`/${locale}/sobre-o-ano-zero`}
-            hoverBgImage={require("@/assets/imgSite/botaohover.webp")}
-            pressBgImage={require("@/assets/imgSite/botaopress.webp")}
+          <Link
+            href="/textoCuratorial"
+            className="mt-8 inline-block text-black uppercase underline underline-offset-4 transition-colors bebasReadMore"
           >
-            {t("about")}
-          </HomeActionButton>
-          <HomeActionButton
-            href={props.newsletter || "#"}
-            external
-            hoverBgImage={require("@/assets/imgSite/botaohover2.webp")}
-            pressBgImage={require("@/assets/imgSite/botaopress2.webp")}
-          >
-            {t("newsletter")}
-          </HomeActionButton>
-          <HomeActionButton
-            href="#"
-            hoverBgImage={require("@/assets/imgSite/botaohover3.webp")}
-            pressBgImage={require("@/assets/imgSite/botaopress3.webp")}
-          >
-            {t("mediaKit")}
-          </HomeActionButton>
+            {t("readMore")}
+          </Link>
+          <div className="mt-8 flex flex-wrap justify-center gap-4 mb-[119px]">
+            <HomeActionButton
+              href={`/${locale}/sobre-o-ano-zero`}
+              hoverBgImage={require("@/assets/imgSite/botaohover.webp")}
+              pressBgImage={require("@/assets/imgSite/botaopress.webp")}
+            >
+              {t("about")}
+            </HomeActionButton>
+            <HomeActionButton
+              href={props.newsletter || "#"}
+              external
+              hoverBgImage={require("@/assets/imgSite/botaohover2.webp")}
+              pressBgImage={require("@/assets/imgSite/botaopress2.webp")}
+            >
+              {t("newsletter")}
+            </HomeActionButton>
+            <HomeActionButton
+              href="#"
+              hoverBgImage={require("@/assets/imgSite/botaohover3.webp")}
+              pressBgImage={require("@/assets/imgSite/botaohover3.webp")}
+            >
+              {t("mediaKit")}
+            </HomeActionButton>
+          </div>
         </div>
       </div>
     </PageLayout>

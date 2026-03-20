@@ -71,55 +71,60 @@ export default function Header(props: HeaderProps) {
   return (
     <>
       <header className={classNames("sticky top-0 z-10", styles.headerBg)}>
-        <nav
-          className={classNames(
-            `w-full flex flex-row items-center text-black ${props.isSubMenuOpened && "border-b"}`,
-            props.twClass,
-            styles.textVariant,
-          )}
-        >
-          <div className="flex-1 min-w-0">
-            <Link
-              href="/"
-              className="az-text-title block px-5 py-3"
-              style={{ lineHeight: 0 }}
-            >
-              <Image
-                src={require("@/assets/imgSite/anoz26_logo_topo.png")}
-                alt="Anozero 2026 logo"
-                width={286}
-                height={90}
-                priority
+        <nav className="max-width-1920">
+          <div
+            className={classNames(
+              `w-full flex flex-row items-center text-black ${props.isSubMenuOpened && "border-b"}`,
+              props.twClass,
+              styles.textVariant,
+            )}
+          >
+            <div className="flex-1 min-w-0">
+              <Link
+                href="/"
+                className="az-text-title block"
+                style={{ lineHeight: 0, margin: '0 20px 0 20px' }}
+              >
+                <Image
+                  src={require("@/assets/imgSite/anoz26_logo_topo.png")}
+                  alt="Anozero 2026 logo"
+                  width={286}
+                  height={90}
+                  priority
+                  style={{ display: 'block', margin: 0 }}
+                />
+              </Link>
+            </div>
+            <div className="flex items-center justify-end" style={{minWidth:'0', gap: '60px'}}>
+              <LocaleSwitcher
+                twClass={classNames(
+                  "px-1 py-0.5 uppercase underline",
+                  styles.textVariant,
+                  styles.bebasLocaleSwitcher,
+                )}
               />
-            </Link>
-          </div>
-          <div className="flex items-center justify-end" style={{minWidth:'0', gap: '60px'}}>
-            <LocaleSwitcher
-              twClass={classNames(
-                "px-1 py-0.5 uppercase underline",
-                styles.textVariant,
-                styles.bebasLocaleSwitcher,
-              )}
-            />
-            <button
-              type="button"
-              className={classNames(
-                "flex h-full items-center justify-center px-3 py-2",
-                styles.textVariant,
-              )}
-              aria-label={props.isSubMenuOpened ? t("close") : t("menu")}
-              onMouseEnter={() => setIsMenuHovered(true)}
-              onMouseLeave={() => setIsMenuHovered(false)}
-              onClick={handleMenuToggle}
-            >
-              <Image
-                src={menuIcon}
-                alt={props.isSubMenuOpened ? t("close") : t("menu")}
-                width={60}
-                height={60}
-                priority
-              />
-            </button>
+              <button
+                type="button"
+                className={classNames(
+                  "flex h-full items-center justify-center px-3 py-2",
+                  styles.textVariant,
+                )}
+                aria-label={props.isSubMenuOpened ? t("close") : t("menu")}
+                onMouseEnter={() => setIsMenuHovered(true)}
+                onMouseLeave={() => setIsMenuHovered(false)}
+                onClick={handleMenuToggle}
+                style={{ margin: '0 12px 0 12px' }}
+              >
+                <Image
+                  src={menuIcon}
+                  alt={props.isSubMenuOpened ? t("close") : t("menu")}
+                  width={60}
+                  height={60}
+                  priority
+                  style={{ display: 'block', margin: 0 }}
+                />
+              </button>
+            </div>
           </div>
         </nav>
       </header>
