@@ -1,4 +1,3 @@
-import Partners from "./Partners/Partners";
 import { useRouter } from "next/router";
 import CustomPortableText from "@/components/PortableText/PortableText";
 import curatorialText from "../dummy/curatorialText.json";
@@ -92,9 +91,6 @@ export default function TextoCuratorialContent() {
       )}
     <div style={{ height: 120, width: '100%'}}></div>
 
-      <div style={{ marginTop: 80 }}>
-        <Partners />
-      </div>
     </div>
     
   );
