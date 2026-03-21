@@ -134,6 +134,20 @@ export default function TextoCuratorialContent() {
       )}
     <div className="curatorial-spacing" style={{ height: 120, width: '100%'}}></div>
 
+    {/* Lista Artistas Image */}
+    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: 24 }}>
+      <Image
+        src="/images/Anozero26_listaArtistas.png"
+        alt="Anozero'26 Lista Artistas"
+        width={900}
+        height={600}
+        style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
+        priority={false}
+      />
+    </div>
+     <div className="curatorial-spacing" style={{ height: 120, width: '100%'}}></div>
+
+
     </div>
     
   );
