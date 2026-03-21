@@ -85,6 +85,17 @@ export default function Index(props: {
             </HomeActionButton>
           </div>
         </div>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', marginBottom: 40 }}>
+          <Image
+            src="/images/Anozero26_listaArtistas.png"
+            alt="Anozero'26 Lista Artistas"
+            width={900}
+            height={600}
+            style={{ maxWidth: '100%', height: 'auto', borderRadius: 8 }}
+            priority={false}
+          />
+        </div>
+            
       </div>
     </PageLayout>
   );
