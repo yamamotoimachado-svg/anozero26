@@ -26,7 +26,7 @@
     "copyright": "Copyright e Créditos",
     "about": "Sobre",
     "news": "Notícias",
-    "mediaKit": "Media Kit",
+    "mediaKit": "Programa",
     "guide": "Guia"
   },
   "links": {
@@ -37,7 +37,7 @@
       "visit": "Visitar",
       "about": "Sobre o Anozero",
       "subscribeNewsletter": "Subscrever Newsletter",
-      "mediaKit": "Media Kit",
+      "mediaKit": "Programa",
       "contacts": "Contactos",
       "endorsements": "Apoios e Parceiros"
     },
@@ -80,7 +80,7 @@
     "guide": "Download Guia",
     "about": "Sobre o Anozero",
     "newsletter": "Subscrever Newsletter",
-    "mediaKit": "Media Kit"
+    "mediaKit": "Programa"
   },
   "common": {
     "knowMore": "Saber mais +",

@@ -38,7 +38,7 @@
       "visit": "Visit",
       "about": "About AnoZero",
       "subscribeNewsletter": "Subscribe Newsletter",
-      "mediaKit": "Media Kit",
+      "mediaKit": "Program",
       "contacts": "Contacts",
       "endorsements": "Endorsements & Partners"
     },
@@ -81,7 +81,7 @@
     "guide": "Download Guide",
     "about": "About AnoZero",
     "newsletter": "Subscribe Newsletter",
-    "mediaKit": "Media Kit"
+    "mediaKit": "Program"
   },
   "common": {
     "knowMore": "Know more +",
