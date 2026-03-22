@@ -77,7 +77,7 @@ export default function Index(props: {
               {t("newsletter")}
             </HomeActionButton>
             <HomeActionButton
-              href="#"
+              href="https://drive.google.com/uc?export=download&id=1bu58PgC1BoxhjNxFEaxx3TkFdAyO3Gs9"
               hoverBgImage={require("@/assets/imgSite/botaohover3.webp")}
               pressBgImage={require("@/assets/imgSite/botaohover3.webp")}
             >
